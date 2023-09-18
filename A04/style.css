@@ -1,0 +1,35 @@
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @keyframes rainbow {
+            0%, 100% { color: hotpink; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+        }
+        
+        #funText {
+            display: inline-block;
+            font-family: 'Croissant One', cursive;
+        }
+        
+        #funText span {
+            display: inline-block;
+            animation: rainbow 2s infinite;
+            animation-delay: calc(0.1s * var(--index));
+        }
+        
+      
