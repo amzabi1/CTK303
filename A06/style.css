@@ -14,13 +14,3 @@ header, footer {
     text-align: center;
     padding: 20px;
 }
-
-    .accordion-button i {
-        transition: transform 0.3s;
-        color:black
-    }
-
-    .accordion-button[aria-expanded="true"] i {
-        transform: rotate(180deg);
-    }
-
