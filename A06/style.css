@@ -1,0 +1,26 @@
+.fixed-height-img {
+    height: 200px;
+    object-fit: cover; /* To maintain aspect ratio and cover the container */
+}
+
+body {
+    font-family: 'Scope One', serif;
+    font-size: 16px;
+    background-color: #fffff0;
+}
+
+header, footer {
+    background-color: darkred;
+    text-align: center;
+    padding: 20px;
+}
+
+    .accordion-button i {
+        transition: transform 0.3s;
+        color:black
+    }
+
+    .accordion-button[aria-expanded="true"] i {
+        transform: rotate(180deg);
+    }
+
